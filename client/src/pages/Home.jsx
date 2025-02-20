@@ -53,7 +53,7 @@ export default function Home() {
     <div className="">
       {/* top */}
       <div className="flex flex-col gap-6 p-10 md:py-20 px-3 max-w-6xl mx-auto">
-        <h1 style={{ lineHeight: '1.1' }} className='text-slate-700 font-bold text-3xl lg:text-6xl leading-8'>Welcome to <span className='text-slate-500'>Serendib Estates</span>
+        <h1 style={{ lineHeight: '1.1' }} className='text-slate-700 font-bold text-3xl lg:text-6xl leading-8'>Welcome to <span className='text-slate-500'>HomeSphere</span>
         <br/>Your gateway to exquisite real estate!</h1>
         <div className="text-gray-400 text-sm md:text-base max-w-4xl">Where Dreams Find Home. Explore premier real estate, meticulously curated for a life of luxury and elegance. Your perfect home awaits, ushering in a new chapter of unparalleled living in style.</div>
         <Link to={'/search'} className=' bg-blue-800 font-semibold text-white p-3 w-52 text-center mt-2 rounded-full hover:bg-blue-900 hover:scale-105 transition-all duration-200'><button>Let's get started</button></Link>

@@ -68,9 +68,9 @@ export default function Listing() {
 
                 <div className='flex gap-4'>
                     <p className='bg-red-700 w-full max-w-[200px] text-white text-center p-1 rounded-md'>{listing.type === 'rent' ? 'For Rent' : 'For Sale'}</p>
-                    {listing.offer && (<p className='bg-slate-500 w-full max-w-[200px] text-white text-center p-1 rounded-md line-through'>LKR {listing.regularPrice} {listing.type === 'rent' && '/ Month'}</p>)}
-                    {listing.offer && (<p className='bg-green-700 w-full max-w-[200px] text-white text-center p-1 rounded-md'>LKR {+listing.regularPrice - +listing.discountPrice} {listing.type === 'rent' && '/ Month'}</p>)}
-                    {!listing.offer && (<p className='bg-green-700 w-full max-w-[200px] text-white text-center p-1 rounded-md'>LKR {listing.regularPrice} {listing.type === 'rent' && '/ Month'}</p>)}
+                    {listing.offer && (<p className='bg-slate-500 w-full max-w-[200px] text-white text-center p-1 rounded-md line-through'>IDR {listing.regularPrice} {listing.type === 'rent' && '/ Month'}</p>)}
+                    {listing.offer && (<p className='bg-green-700 w-full max-w-[200px] text-white text-center p-1 rounded-md'>IDR {+listing.regularPrice - +listing.discountPrice} {listing.type === 'rent' && '/ Month'}</p>)}
+                    {!listing.offer && (<p className='bg-green-700 w-full max-w-[200px] text-white text-center p-1 rounded-md'>IDR {listing.regularPrice} {listing.type === 'rent' && '/ Month'}</p>)}
                 </div>
                 
                 <p className='text-slate-600'><span className='font-semibold text-slate-800'>Description : </span>{listing.description}</p>

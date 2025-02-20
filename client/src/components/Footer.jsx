@@ -8,8 +8,8 @@ export default function Footer() {
             <div className="sm:flex sm:items-center sm:justify-between">
                 <Link to='/'>
                     <h1 className='font-bold text-sm sm:text-xl flex-wrap'>
-                        <span className='text-slate-500'>Serendib</span>
-                        <span className='text-slate-600'>Estates</span>
+                        <span className='text-slate-500'>Home</span>
+                        <span className='text-slate-600'>Sphere</span>
                     </h1>
                 </Link>
                 <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-slate-500 sm:mb-0">
@@ -28,7 +28,7 @@ export default function Footer() {
                 </ul>
             </div>
             <hr className="my-6 border-slate-400 sm:mx-auto lg:my-8" />
-            <span className="block text-sm text-slate-500 sm:text-center">© 2024 <Link to='/' className="hover:text-slate-900">SerendibEstates</Link>™. All Rights Reserved.</span>
+            <span className="block text-sm text-slate-500 sm:text-center">© 2025 <Link to='/' className="hover:text-slate-900">HomeSphere</Link>™. All Rights Reserved.</span>
         </div>
     </footer>
   )

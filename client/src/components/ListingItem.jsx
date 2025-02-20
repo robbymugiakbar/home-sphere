@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types';
 import { FaBath, FaBed, FaMapMarkerAlt } from 'react-icons/fa';
 
 export default function ListingItem({listing}) {
@@ -15,8 +16,8 @@ export default function ListingItem({listing}) {
           </div>
           <p className='text-sm text-gray-500 line-clamp-2 mt-2'>{listing.description}</p>
           <p>
-          {listing.offer && (<p className=' text-green-700 mt-2 font-bold'>LKR {+listing.regularPrice - +listing.discountPrice} {listing.type === 'rent' && '/ Month'}</p>)}
-          {!listing.offer && (<p className=' text-green-700 mt-2 font-bold'>LKR {+listing.regularPrice} {listing.type === 'rent' && '/ Month'}</p>)}
+          {listing.offer && (<p className=' text-green-700 mt-2 font-bold'>IDR {+listing.regularPrice - +listing.discountPrice} {listing.type === 'rent' && '/ Month'}</p>)}
+          {!listing.offer && (<p className=' text-green-700 mt-2 font-bold'>IDR {+listing.regularPrice} {listing.type === 'rent' && '/ Month'}</p>)}
           </p>
           <ul className='text-slate-700 font-semibold text-xs flex flex-wrap items-center gap-4 sm:gap-6'>
             <li className='flex items-center gap-1 whitespace-nowrap'>
