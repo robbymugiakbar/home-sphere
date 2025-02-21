@@ -2,11 +2,9 @@
   <a href="https://serendib-estates.onrender.com/"><p>Serendib Estates</p></a>
 </h1>
 
-<p><a href="https://github.com/kavindu-dilshan"><img src="https://skillicons.dev/icons?i=mongo,express,react,nodejs,vite,redux,tailwind,firebase,vscode,github" width=350></a></p>
+<p><a href="https://github.com/robbymugiakbar"><img src="https://skillicons.dev/icons?i=mongo,express,react,nodejs,vite,redux,tailwind,firebase,vscode,github" width=350></a></p>
 
 This repository contains the source code for a Real Estate Marketplace web application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. The project utilizes Vite as the local development server.<br>
-### Live App: <a href="https://serendib-estates.onrender.com/">www.serendib-estates.onrender.com</a><br><br>
-<img src="https://firebasestorage.googleapis.com/v0/b/images-for-projects.appspot.com/o/Serendib%20Estates%2FScreenshots%2FHome.jpg?alt=media&token=524d5818-88d3-4c14-92f8-5e4c44af4d39" alt="Home">
 
 ## Table of Contents
 - [Installation](#installation)
@@ -17,38 +15,6 @@ This repository contains the source code for a Real Estate Marketplace web appli
 - [Authentication and OAuth](#authentication-and-oauth)
 - [Deployment](#deployment)
 - [License](#license)<br><br>
-
-## Installation
-
-To set up the project locally, follow these steps:
-
-1. Clone the repository:
-```bash
-git clone https://github.com/kavindu-dilshan/serendib-estates.git
-```
-
-2. Install dependencies for the frontend and backend:
-```bash
-cd serendib-estates/client
-npm install
-
-cd serendib-estates
-npm install
-```
-
-3. Set up MongoDB:
-- Create a MongoDB database and configure the connection in api/index.js.
-
-
-4. Run the development server:
-```bash
-cd serendib-estates/client
-npm run dev
-
-cd serendib-estates
-npm run dev
-```
-<br>
 
 ## Project Structure
 The project structure is organized as follows:
@@ -64,8 +30,6 @@ The project structure is organized as follows:
 - Responsive design and user-friendly interface.
 - Integration with Google OAuth for seamless authentication.
 - Image upload functionality for user listings.<br><br>
-
-<img src="https://firebasestorage.googleapis.com/v0/b/images-for-projects.appspot.com/o/Serendib%20Estates%2FScreenshots%2FSearch.jpg?alt=media&token=4bd9fc46-31af-4371-9c6e-8b8493b69b61" alt="Search">
 
 ## Usage
 The application provides a comprehensive real estate marketplace experience. Users can sign up, create and manage listings, search for properties, and interact with landlords.<br>
