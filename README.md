@@ -1,5 +1,5 @@
 <h1>
-  <a href="https://serendib-estates.onrender.com/"><p>Serendib Estates</p></a>
+  <a href="https://serendib-estates.onrender.com/"><p>HomeSphere</p></a>
 </h1>
 
 <p><a href="https://github.com/robbymugiakbar"><img src="https://skillicons.dev/icons?i=mongo,express,react,nodejs,vite,redux,tailwind,firebase,vscode,github" width=350></a></p>
