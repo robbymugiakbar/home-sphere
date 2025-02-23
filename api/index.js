@@ -6,6 +6,7 @@ import authRouter from './routes/auth.route.js';
 import listingRouter from './routes/listing.route.js';
 import cookieParser from 'cookie-parser';
 import path from 'path';
+import cors from 'cors';
 dotenv.config();
 
 mongoose.connect(process.env.MONGO).then(() => {
@@ -21,7 +22,7 @@ const app = express();
 app.use(express.json());
 const cors = require('cors');
     app.use(cors({
-      origin: process.env.CLIENT_URL,
+        origin: ['https://your-frontend-url.vercel.app', 'http://localhost:5173'],
       credentials: true
     }));
 app.use(cookieParser());
